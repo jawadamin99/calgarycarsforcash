@@ -13,9 +13,9 @@ export default function Home() {
           </a>
           <a
             className="hidden rounded-full border border-[#17211b]/15 px-5 py-2 text-sm font-bold text-[#17211b] transition hover:border-[#b8292f] hover:text-[#b8292f] sm:inline-flex"
-            href="tel:+15877009806"
+            href="tel:+15876642401"
           >
-            Call Soon
+            Call Now
           </a>
         </nav>
 
@@ -42,9 +42,9 @@ export default function Home() {
               </a>
               <a
                 className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-black text-[#17211b] shadow-sm ring-1 ring-black/8 transition hover:text-[#b8292f]"
-                href="tel:+15877009806"
+                href="tel:+15876642401"
               >
-                Call 587-700-9806
+                Call (587) 664-2401
               </a>
             </div>
           </div>
