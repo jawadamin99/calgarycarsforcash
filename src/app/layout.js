@@ -22,6 +22,14 @@ export const metadata = {
       "A Calgary cash-for-cars service is launching soon with quick quotes, free towing, and straightforward payment.",
     url: "https://calgarycarsforcash.ca",
     siteName: "Calgary Cars for Cash",
+    images: [
+      {
+        url: "/images/coming-soon-hero.png",
+        width: 1823,
+        height: 863,
+        alt: "Tow truck picking up a car in Calgary",
+      },
+    ],
     locale: "en_CA",
     type: "website",
   },
@@ -30,6 +38,7 @@ export const metadata = {
     title: "Calgary Cars for Cash | Coming Soon",
     description:
       "Fast cash offers for unwanted cars in Calgary. Full website coming soon.",
+    images: ["/images/coming-soon-hero.png"],
   },
 };
 
