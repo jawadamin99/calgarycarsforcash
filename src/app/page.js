@@ -46,8 +46,11 @@ export default function Home() {
                 Launching soon in Calgary
               </p>
               <h1 className="max-w-4xl text-5xl font-black leading-[0.93] text-[#171a17] sm:text-6xl lg:text-7xl">
-                Sell your unwanted car for cash. Website coming soon.
+                Cash for cars Calgary.
               </h1>
+              <p className="mt-4 max-w-3xl text-3xl font-black leading-tight text-[#b5252b] sm:text-4xl lg:text-5xl">
+                Full website coming soon.
+              </p>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-[#424940] sm:text-xl">
                 Calgary Cars for Cash is getting ready to buy junk, scrap,
                 damaged, and non-running vehicles with fast quotes, fair offers,
