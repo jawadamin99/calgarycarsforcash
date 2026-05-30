@@ -1,10 +1,12 @@
 import Image from "next/image";
 
-const services = [
+const vehicleTypes = [
   "Junk cars",
-  "Scrap vehicles",
-  "Damaged cars",
-  "Non-runners",
+  "Scrap cars",
+  "Damaged vehicles",
+  "Non-running cars",
+  "Old used cars",
+  "Unwanted vehicles",
 ];
 
 export default function Home() {
@@ -19,8 +21,7 @@ export default function Home() {
           sizes="100vw"
           className="object-cover object-[62%_center]"
         />
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(244,241,233,0.98)_0%,rgba(244,241,233,0.9)_38%,rgba(244,241,233,0.34)_67%,rgba(244,241,233,0.12)_100%)]" />
-        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#f4f1e9] to-transparent" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(244,241,233,0.98)_0%,rgba(244,241,233,0.92)_42%,rgba(244,241,233,0.48)_72%,rgba(244,241,233,0.18)_100%)]" />
 
         <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-7xl flex-col px-5 py-5 sm:px-8 lg:px-10">
           <nav className="flex items-center justify-between gap-4">
@@ -40,21 +41,20 @@ export default function Home() {
             </a>
           </nav>
 
-          <div className="grid flex-1 items-center py-12 lg:grid-cols-[minmax(0,0.92fr)_minmax(360px,0.56fr)] lg:py-16">
+          <div className="grid flex-1 items-center gap-10 py-10 lg:grid-cols-[minmax(0,0.95fr)_minmax(360px,0.55fr)] lg:py-14">
             <div className="max-w-3xl">
               <p className="mb-5 inline-flex rounded-full bg-white/90 px-4 py-2 text-sm font-black text-[#b5252b] shadow-sm ring-1 ring-black/5">
-                Launching soon in Calgary
+                Launching soon
               </p>
               <h1 className="max-w-4xl text-5xl font-black leading-[0.93] text-[#171a17] sm:text-6xl lg:text-7xl">
                 Cash for cars Calgary.
               </h1>
               <p className="mt-4 max-w-3xl text-3xl font-black leading-tight text-[#b5252b] sm:text-4xl lg:text-5xl">
-                Full website coming soon.
+                Website coming soon.
               </p>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-[#424940] sm:text-xl">
-                Calgary Cars for Cash is getting ready to buy junk, scrap,
-                damaged, and non-running vehicles with fast quotes, fair offers,
-                and towing arranged across Calgary.
+                We buy unwanted vehicles in Calgary and help turn old, damaged,
+                junk, and non-running cars into cash with simple local service.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -68,75 +68,63 @@ export default function Home() {
                   className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-black text-[#171a17] shadow-sm ring-1 ring-black/10 transition hover:text-[#b5252b]"
                   href="mailto:info@calgarycarsforcash.ca"
                 >
-                  Email for Updates
+                  Write to Us
                 </a>
-              </div>
-
-              <div className="mt-10 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
-                {services.map((service) => (
-                  <div
-                    className="rounded-2xl bg-white/88 px-4 py-3 text-center text-sm font-black shadow-sm ring-1 ring-black/5"
-                    key={service}
-                  >
-                    {service}
-                  </div>
-                ))}
               </div>
             </div>
 
-            <aside className="mt-10 max-w-md justify-self-start rounded-[1.75rem] bg-[#171a17] p-5 text-white shadow-2xl shadow-black/20 lg:mt-0 lg:justify-self-end">
-              <div className="rounded-[1.25rem] border border-white/12 p-5">
-                <p className="text-sm font-black uppercase tracking-[0.2em] text-[#f4c542]">
-                  Coming Next
-                </p>
-                <h2 className="mt-4 text-3xl font-black leading-tight">
-                  A faster way to get a cash offer.
-                </h2>
-                <div className="mt-6 space-y-4 text-sm leading-6 text-white/82">
-                  <p>
-                    The full site will include instant quote steps, vehicle
-                    pickup details, service areas, FAQs, and direct contact
-                    options.
+            <aside className="max-w-md justify-self-start rounded-[1.75rem] bg-[#171a17] p-5 text-white shadow-2xl shadow-black/20 lg:justify-self-end">
+              <div className="space-y-7 rounded-[1.25rem] border border-white/12 p-5">
+                <div>
+                  <p className="text-sm font-black uppercase tracking-[0.2em] text-[#f4c542]">
+                    Who We Are
                   </p>
-                  <p>
-                    For now, call us and we can start with the basic vehicle
-                    details.
+                  <p className="mt-3 text-base leading-7 text-white/84">
+                    Calgary Cars for Cash is a local vehicle buying service for
+                    people who want a direct way to sell an unwanted car.
                   </p>
                 </div>
-                <a
-                  className="mt-6 inline-flex w-full justify-center rounded-full bg-[#f4c542] px-5 py-3 text-sm font-black text-[#171a17] transition hover:bg-white"
-                  href="tel:+15876642401"
-                >
-                  Speak With Us
-                </a>
+
+                <div>
+                  <p className="text-sm font-black uppercase tracking-[0.2em] text-[#f4c542]">
+                    What We Buy
+                  </p>
+                  <div className="mt-4 grid grid-cols-2 gap-2">
+                    {vehicleTypes.map((type) => (
+                      <div
+                        className="rounded-xl bg-white/10 px-3 py-2 text-sm font-black"
+                        key={type}
+                      >
+                        {type}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="grid gap-3">
+                  <a
+                    className="inline-flex justify-center rounded-full bg-[#f4c542] px-5 py-3 text-sm font-black text-[#171a17] transition hover:bg-white"
+                    href="tel:+15876642401"
+                  >
+                    Call (587) 664-2401
+                  </a>
+                  <a
+                    className="inline-flex justify-center rounded-full bg-white/10 px-5 py-3 text-sm font-black text-white ring-1 ring-white/15 transition hover:bg-white hover:text-[#171a17]"
+                    href="mailto:info@calgarycarsforcash.ca"
+                  >
+                    info@calgarycarsforcash.ca
+                  </a>
+                </div>
               </div>
             </aside>
           </div>
+
+          <footer className="flex flex-col gap-2 border-t border-black/10 py-5 text-sm text-[#5a625b] sm:flex-row sm:items-center sm:justify-between">
+            <p>Calgary Cars for Cash. Website coming soon.</p>
+            <p>Serving Calgary and nearby communities.</p>
+          </footer>
         </div>
       </section>
-
-      <section className="mx-auto grid w-full max-w-7xl gap-4 px-5 pb-10 sm:px-8 lg:grid-cols-3 lg:px-10">
-        {[
-          ["Quick Quotes", "Share the car details and condition."],
-          ["Free Towing", "Pickup will be arranged in Calgary and nearby areas."],
-          ["Simple Payment", "Fair cash offers without complicated paperwork."],
-        ].map(([title, text]) => (
-          <div
-            className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/6"
-            key={title}
-          >
-            <h2 className="text-xl font-black">{title}</h2>
-            <p className="mt-2 text-sm leading-6 text-[#5a625b]">{text}</p>
-          </div>
-        ))}
-      </section>
-
-      <footer className="mx-auto flex w-full max-w-7xl flex-col gap-2 border-t border-black/10 px-5 py-6 text-sm text-[#5a625b] sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10">
-        <p>Calgary Cars for Cash. Full website launching soon.</p>
-        <a className="font-black text-[#171a17]" href="tel:+15876642401">
-          (587) 664-2401
-        </a>
-      </footer>
     </main>
   );
 }
