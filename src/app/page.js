@@ -44,7 +44,7 @@ export default function Home() {
           <div className="grid flex-1 items-center gap-10 py-10 lg:grid-cols-[minmax(0,0.95fr)_minmax(360px,0.55fr)] lg:py-14">
             <div className="max-w-3xl">
               <h1 className="max-w-4xl text-5xl font-black leading-[0.93] text-[#171a17] sm:text-6xl lg:text-6xl">
-                Cash for Cars Calgary.
+                Cash for Cars Calgary
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-[#424940] sm:text-xl">
                 We buy unwanted vehicles in Calgary and help turn old, damaged,
@@ -114,7 +114,7 @@ export default function Home() {
           </div>
 
           <footer className="flex flex-col gap-2 border-t border-black/10 py-5 text-sm text-[#5a625b] sm:flex-row sm:items-center sm:justify-between">
-            <p>Calgary Cars for Cash.</p>
+            <p>Calgary Cars for Cash</p>
             <p>Serving Calgary and nearby communities.</p>
           </footer>
         </div>
