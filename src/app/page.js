@@ -36,7 +36,7 @@ export default function Home() {
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a
                 className="inline-flex items-center justify-center rounded-full bg-[#b8292f] px-7 py-4 text-base font-black text-white shadow-lg shadow-[#b8292f]/20 transition hover:bg-[#9f2028]"
-                href="mailto:info@calgarycarsforcash.com"
+                href="mailto:info@calgarycarsforcash.ca"
               >
                 Get Launch Updates
               </a>

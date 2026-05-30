@@ -15,12 +15,12 @@ export const metadata = {
   title: "Calgary Cars for Cash | Coming Soon",
   description:
     "Calgary Cars for Cash is launching soon with fast vehicle buying, free towing, and fair cash offers across Calgary.",
-  metadataBase: new URL("https://calgarycarsforcash.com"),
+  metadataBase: new URL("https://calgarycarsforcash.ca"),
   openGraph: {
     title: "Calgary Cars for Cash | Coming Soon",
     description:
       "A Calgary cash-for-cars service is launching soon with quick quotes, free towing, and straightforward payment.",
-    url: "https://calgarycarsforcash.com",
+    url: "https://calgarycarsforcash.ca",
     siteName: "Calgary Cars for Cash",
     locale: "en_CA",
     type: "website",
