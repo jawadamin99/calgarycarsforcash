@@ -17,9 +17,9 @@ export async function POST(req) {
         const name = String(formData.get("name") || "");
         const email = String(formData.get("email") || "");
         const phone = String(formData.get("phone") || "");
-        const vehicle = String(formData.get("model") || "");
+        const vehicle = String(formData.get("make_model") || "");
         const city = String(formData.get("city") || "");
-        const message = String(formData.get("condition") || "");
+        const message = String(formData.get("message") || "");
         const pageUrl = String(formData.get("pageUrl") || "");
 
         const forwardedFor = req.headers.get("x-forwarded-for") || "";
@@ -90,7 +90,7 @@ export async function POST(req) {
                 `Phone: ${phone}`,
                 `City/Area: ${city || "-"}`,
                 `Vehicle: ${vehicle || "-"}`,
-                `Condition: ${condition || "-"}`,
+                `Message: ${message || "-"}`,
                 "",
                 "Submission Metadata:",
                 `IP Address: ${ipAddress}`,
