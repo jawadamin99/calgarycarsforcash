@@ -40,8 +40,7 @@ export default function LeadForm({
   return (
     <form
       id="quote"
-      className="lift-card rounded-[1.75rem] bg-[#171a17] p-5 text-white shadow-2xl shadow-black/25"
-      data-animate="fade-left"
+      className="rounded-[1.75rem] bg-[#171a17] p-5 text-white shadow-2xl shadow-black/25"
       onSubmit={handleSubmit}
     >
       <div className="rounded-[1.25rem] border border-white/12 p-5">
@@ -52,7 +51,7 @@ export default function LeadForm({
           <label className="grid gap-1 text-sm font-bold">
             Name
             <input
-              className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] transition focus:ring-2"
+              className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] focus:ring-2"
               name="name"
               required
             />
@@ -60,7 +59,7 @@ export default function LeadForm({
           <label className="grid gap-1 text-sm font-bold">
             Phone
             <input
-              className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] transition focus:ring-2"
+              className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] focus:ring-2"
               name="phone"
               required
               type="tel"
@@ -69,7 +68,7 @@ export default function LeadForm({
           <label className="grid gap-1 text-sm font-bold">
             Email
             <input
-                className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] transition focus:ring-2"
+                className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] focus:ring-2"
                 name="email"
                 type="email"
             />
@@ -77,7 +76,7 @@ export default function LeadForm({
           <label className="grid gap-1 text-sm font-bold">
             City / Area
             <input
-                className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] transition focus:ring-2"
+                className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] focus:ring-2"
                 name="city"
                 type="city"
             />
@@ -86,7 +85,7 @@ export default function LeadForm({
               <label className="grid gap-1 text-sm font-bold" key="make_model">
                 Make / Model / Year
                 <input
-                  className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] transition focus:ring-2"
+                  className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] focus:ring-2"
                   name="make_model"
                 />
               </label>
@@ -94,13 +93,13 @@ export default function LeadForm({
           <label className="grid gap-1 text-sm font-bold">
             Message
             <textarea rows={4}
-              className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] transition focus:ring-2"
+              className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none ring-[#f4c542] focus:ring-2"
               name="message"
             />
           </label>
         </div>
         <button
-          className="mt-5 inline-flex w-full justify-center rounded-full bg-[#f4c542] px-5 py-3 text-sm font-black text-[#171a17] transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-70"
+          className="mt-5 inline-flex w-full justify-center rounded-full bg-[#f4c542] px-5 py-3 text-sm font-black text-[#171a17] disabled:cursor-not-allowed disabled:opacity-70"
           disabled={isSubmitting}
         >
           {isSubmitting ? "Sending..." : buttonLabel}

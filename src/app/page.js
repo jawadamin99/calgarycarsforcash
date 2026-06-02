@@ -269,7 +269,7 @@ function CheckList({ items }) {
 
 function SectionIntro({ eyebrow, title, children }) {
   return (
-    <div className="mx-auto max-w-4xl text-center" data-animate="fade-up">
+    <div className="mx-auto max-w-4xl text-center">
       <p className="text-sm font-black uppercase tracking-[0.2em] text-[#b5252b]">
         {eyebrow}
       </p>
@@ -295,8 +295,7 @@ function ImageCard({
 }) {
   return (
     <figure
-      className={`image-hover overflow-hidden rounded-[1.75rem] bg-white shadow-xl shadow-black/10 ring-1 ring-black/6 ${className}`}
-      data-animate="zoom-in"
+      className={` overflow-hidden rounded-[1.75rem] bg-white shadow-xl shadow-black/10 ring-1 ring-black/6 ${className}`}
     >
       <div className={innerClassName}>
         <Image
@@ -339,13 +338,11 @@ export default function Home() {
               </p>
               <h1
                 className="max-w-4xl text-4xl font-black leading-[0.98] text-[#171a17] sm:text-5xl lg:text-6xl"
-                data-animate="fade-right"
               >
                 Get Paid Today, We Tow for Free
               </h1>
               <div
                 className="mt-6 max-w-2xl text-lg leading-8 text-[#424940] sm:text-xl"
-                data-animate="fade-up"
               >
                 <p>
                   Selling your car in Calgary should put money in your pocket -
@@ -357,16 +354,15 @@ export default function Home() {
 
               <div
                 className="mt-8 flex flex-col gap-3 sm:flex-row"
-                data-animate="fade-up"
               >
                 <a
-                  className="inline-flex items-center justify-center rounded-full bg-[#b5252b] px-7 py-4 text-base font-black text-white shadow-lg shadow-[#b5252b]/20 transition hover:bg-[#9f1f25]"
+                  className="inline-flex items-center justify-center rounded-full bg-[#b5252b] px-7 py-4 text-base font-black text-white shadow-lg shadow-[#b5252b]/20 hover:bg-[#9f1f25]"
                   href="#quote"
                 >
                   Get My Free Cash Offer
                 </a>
                 <a
-                  className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-black text-[#171a17] shadow-sm ring-1 ring-black/10 transition hover:text-[#b5252b]"
+                  className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-black text-[#171a17] shadow-sm ring-1 ring-black/10 hover:text-[#b5252b]"
                   href="tel:+15876642401"
                 >
                   Call (587)-664-2401 - We Answer 7 Days a Week
@@ -380,8 +376,7 @@ export default function Home() {
           <div className="grid gap-3 pb-7 sm:grid-cols-2 lg:grid-cols-4">
             {trustItems.map((item) => (
               <div
-                className="lift-card rounded-2xl bg-white/90 px-4 py-3 text-center text-sm font-black shadow-sm ring-1 ring-black/5"
-                data-animate="fade-up"
+                className=" rounded-2xl bg-white/90 px-4 py-3 text-center text-sm font-black shadow-sm ring-1 ring-black/5"
                 key={item}
               >
                 {item}
@@ -391,10 +386,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-5 py-12 sm:px-8 lg:px-10" data-animate="fade-up">
-        <div className="lift-card mx-auto max-w-7xl rounded-[1.75rem] bg-white p-6 shadow-sm ring-1 ring-black/6 sm:p-8">
+      <section className="px-5 py-12 sm:px-8 lg:px-10">
+        <div className=" mx-auto max-w-7xl rounded-[1.75rem] bg-white p-6 shadow-sm ring-1 ring-black/6 sm:p-8">
           <div className="grid gap-6 lg:grid-cols-[0.58fr_0.42fr] lg:items-center">
-            <div className="grid gap-4" data-animate="fade-right">
+            <div className="grid gap-4">
               <p className="text-2xl font-black leading-tight text-[#b5252b]">
                 Running or not, we pay top dollar, tow it away for free, and
                 hand you cash on the spot - same day.
@@ -417,13 +412,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-5 py-20 sm:px-8 lg:px-10" data-animate="fade-up">
+      <section className="px-5 py-20 sm:px-8 lg:px-10">
         <div className="mx-auto max-w-7xl">
-          <div className="lift-card overflow-hidden rounded-[2rem] bg-white shadow-xl shadow-black/10 ring-1 ring-black/6">
+          <div className=" overflow-hidden rounded-[2rem] bg-white shadow-xl shadow-black/10 ring-1 ring-black/6">
             <div className="grid lg:grid-cols-[0.72fr_1.28fr]">
               <div
                 className="bg-[#b5252b] p-7 text-white sm:p-10 lg:p-12"
-                data-animate="fade-right"
               >
                 <p className="text-sm font-black uppercase tracking-[0.2em] text-white/75">
                   Who We Are
@@ -440,8 +434,7 @@ export default function Home() {
                     "Calgary and surrounding region",
                   ].map((item) => (
                     <div
-                      className="lift-card rounded-2xl bg-white/12 px-4 py-3 text-sm font-black ring-1 ring-white/15"
-                      data-animate="fade-up"
+                      className=" rounded-2xl bg-white/12 px-4 py-3 text-sm font-black ring-1 ring-white/15"
                       key={item}
                     >
                       {item}
@@ -452,7 +445,6 @@ export default function Home() {
               <div className="p-7 sm:p-10 lg:p-12">
                 <div
                   className="max-w-5xl space-y-6 text-base leading-8 text-[#4d564e]"
-                  data-animate="fade-up"
                 >
                   <p>
                     Calgary is a city built on hard work and straight dealing -
@@ -489,7 +481,6 @@ export default function Home() {
       <section
         id="how-it-works"
         className="bg-white px-5 py-20 sm:px-8 lg:px-10"
-        data-animate="fade-up"
       >
         <div className="mx-auto max-w-7xl">
           <SectionIntro
@@ -504,8 +495,7 @@ export default function Home() {
           <div className="mt-12 grid gap-5 lg:grid-cols-3">
             {steps.map(([step, title, text]) => (
               <div
-                className="lift-card rounded-[1.5rem] bg-[#f4f1e9] p-6 ring-1 ring-black/6"
-                data-animate="fade-up"
+                className=" rounded-[1.5rem] bg-[#f4f1e9] p-6 ring-1 ring-black/6"
                 key={step}
               >
                 <p className="text-sm font-black uppercase tracking-[0.18em] text-[#b5252b]">
@@ -520,7 +510,6 @@ export default function Home() {
           </div>
           <p
             className="mx-auto mt-10 max-w-4xl text-center text-base leading-8 text-[#4d564e]"
-            data-animate="fade-up"
           >
             There are no hidden fees deducted at pickup, no last-minute
             renegotiation, and no paperwork headaches. We handle the title
@@ -534,7 +523,6 @@ export default function Home() {
       <section
         id="what-we-buy"
         className="px-5 py-20 sm:px-8 lg:px-10"
-        data-animate="fade-up"
       >
         <div className="mx-auto max-w-7xl">
           <SectionIntro
@@ -554,8 +542,7 @@ export default function Home() {
             />
             <div className="grid gap-6 lg:grid-cols-2">
               <div
-                className="lift-card rounded-[1.5rem] bg-white p-6 shadow-sm ring-1 ring-black/6"
-                data-animate="fade-up"
+                className=" rounded-[1.5rem] bg-white p-6 shadow-sm ring-1 ring-black/6"
               >
                 <h3 className="mb-5 text-2xl font-black">
                   Vehicle Types We Buy
@@ -563,8 +550,7 @@ export default function Home() {
                 <CheckList items={vehicleTypes} />
               </div>
               <div
-                className="lift-card rounded-[1.5rem] bg-white p-6 shadow-sm ring-1 ring-black/6"
-                data-animate="fade-up"
+                className=" rounded-[1.5rem] bg-white p-6 shadow-sm ring-1 ring-black/6"
               >
                 <h3 className="mb-5 text-2xl font-black">
                   Conditions We Accept
@@ -575,7 +561,6 @@ export default function Home() {
           </div>
           <p
             className="mx-auto mt-10 max-w-4xl text-center text-base leading-8 text-[#4d564e]"
-            data-animate="fade-up"
           >
             We pay based on the real market value of your vehicle - taking into
             account its weight in scrap metal, salvageable parts, make and model
@@ -589,10 +574,9 @@ export default function Home() {
 
       <section
         className="bg-[#171a17] px-5 py-20 text-white sm:px-8 lg:px-10"
-        data-animate="fade-up"
       >
         <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-3xl text-center" data-animate="fade-up">
+          <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-black uppercase tracking-[0.2em] text-[#f4c542]">
               Junk Car Removal Calgary
             </p>
@@ -603,8 +587,7 @@ export default function Home() {
         </div>
         <div className="mx-auto mt-12 grid max-w-7xl gap-8 lg:grid-cols-2">
           <div
-            className="lift-card rounded-[1.75rem] bg-white/7 p-6 ring-1 ring-white/10 sm:p-8"
-            data-animate="fade-right"
+            className=" rounded-[1.75rem] bg-white/7 p-6 ring-1 ring-white/10 sm:p-8"
           >
             <ImageCard
               alt="Accident damaged van ready for junk car removal in Calgary"
@@ -633,8 +616,7 @@ export default function Home() {
               </p>
             </div>
             <div
-              className="lift-card mt-7 rounded-2xl bg-white p-5 text-[#171a17]"
-              data-animate="fade-up"
+              className=" mt-7 rounded-2xl bg-white p-5 text-[#171a17]"
             >
               <h3 className="mb-4 text-xl font-black">
                 Common reasons Calgary residents call us for junk car removal:
@@ -649,8 +631,7 @@ export default function Home() {
           </div>
 
           <div
-            className="lift-card rounded-[1.75rem] bg-[#f4c542] p-6 text-[#171a17] sm:p-8"
-            data-animate="fade-left"
+            className=" rounded-[1.75rem] bg-[#f4c542] p-6 text-[#171a17] sm:p-8"
           >
             <ImageCard
               alt="Stored Ford SUV ready for scrap car removal in Calgary"
@@ -695,7 +676,6 @@ export default function Home() {
       <section
         id="service-area"
         className="px-5 py-20 sm:px-8 lg:px-10"
-        data-animate="fade-up"
       >
         <div className="mx-auto max-w-7xl">
           <SectionIntro
@@ -722,8 +702,7 @@ export default function Home() {
             <div className="grid gap-5 lg:grid-cols-4">
               {Object.entries(serviceAreas).map(([quadrant, areas]) => (
                 <div
-                  className="lift-card rounded-[1.5rem] bg-white p-6 shadow-sm ring-1 ring-black/6"
-                  data-animate="fade-up"
+                  className=" rounded-[1.5rem] bg-white p-6 shadow-sm ring-1 ring-black/6"
                   key={quadrant}
                 >
                   <h3 className="text-2xl font-black text-[#b5252b]">
@@ -745,7 +724,6 @@ export default function Home() {
           </div>
           <div
             className="mx-auto mt-10 max-w-5xl space-y-5 text-center text-base leading-8 text-[#4d564e]"
-            data-animate="fade-up"
           >
             <p>
               We also serve the broader Calgary metro area - including Airdrie
@@ -770,7 +748,6 @@ export default function Home() {
 
       <section
         className="bg-white px-5 py-20 sm:px-8 lg:px-10"
-        data-animate="fade-up"
       >
         <div className="mx-auto max-w-7xl">
           <SectionIntro
@@ -786,8 +763,7 @@ export default function Home() {
           </SectionIntro>
           <div className="mt-12">
             <div
-              className="lift-card overflow-hidden rounded-[1.5rem] bg-[#f4f1e9] ring-1 ring-black/8"
-              data-animate="fade-right"
+              className=" overflow-hidden rounded-[1.5rem] bg-[#f4f1e9] ring-1 ring-black/8"
             >
               <div className="grid bg-[#171a17] text-sm font-black uppercase tracking-[0.14em] text-white md:grid-cols-[0.35fr_0.65fr]">
                 <div className="p-4">Factor</div>
@@ -808,7 +784,6 @@ export default function Home() {
           </div>
           <p
             className="mx-auto mt-10 max-w-4xl text-center text-base leading-8 text-[#4d564e]"
-            data-animate="fade-up"
           >
             The best way to know your exact number is to call us - we'll give
             you a real quote in under 5 minutes based on your specific vehicle.
@@ -821,7 +796,6 @@ export default function Home() {
       <section
         id="why-choose"
         className="px-5 py-20 sm:px-8 lg:px-10"
-        data-animate="fade-up"
       >
         <div className="mx-auto max-w-7xl">
           <SectionIntro
@@ -837,8 +811,7 @@ export default function Home() {
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {reasonsToChoose.map(([title, text]) => (
               <div
-                className="lift-card rounded-[1.5rem] bg-white p-6 shadow-sm ring-1 ring-black/6"
-                data-animate="fade-up"
+                className=" rounded-[1.5rem] bg-white p-6 shadow-sm ring-1 ring-black/6"
                 key={title}
               >
                 <h3 className="text-xl font-black">{title}</h3>
@@ -851,10 +824,9 @@ export default function Home() {
 
       <section
         className="bg-[#b5252b] px-5 py-20 text-white sm:px-8 lg:px-10"
-        data-animate="fade-up"
       >
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_0.6fr] lg:items-center">
-          <div data-animate="fade-right">
+          <div>
             <h2 className="text-4xl font-black leading-tight sm:text-5xl">
               Ready to Get Cash for Your Car in Calgary? Call Us Now.
             </h2>
@@ -883,17 +855,16 @@ export default function Home() {
             </p>
           </div>
           <div
-            className="lift-card rounded-[1.75rem] bg-white p-6 text-[#171a17] shadow-2xl shadow-black/20"
-            data-animate="fade-left"
+            className=" rounded-[1.75rem] bg-white p-6 text-[#171a17] shadow-2xl shadow-black/20"
           >
             <a
-              className="inline-flex w-full justify-center rounded-full bg-[#171a17] px-7 py-4 text-base font-black text-white transition hover:bg-[#b5252b]"
+              className="inline-flex w-full justify-center rounded-full bg-[#171a17] px-7 py-4 text-base font-black text-white hover:bg-[#b5252b]"
               href="/"
             >
               Get My Free Cash Offer Now →
             </a>
             <a
-              className="mt-3 inline-flex w-full justify-center rounded-full bg-[#f4c542] px-7 py-4 text-base font-black text-[#171a17] transition hover:bg-[#f4f1e9]"
+              className="mt-3 inline-flex w-full justify-center rounded-full bg-[#f4c542] px-7 py-4 text-base font-black text-[#171a17] hover:bg-[#f4f1e9]"
               href="tel:+15876642401"
             >
               Call: (587)-664-2401 - We Answer 7 Days a Week

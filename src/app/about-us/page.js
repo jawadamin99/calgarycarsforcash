@@ -132,8 +132,7 @@ function SectionIntro({ eyebrow, title, children }) {
 function ImagePanel({ alt, className = "", objectPosition = "center", src }) {
   return (
     <div
-      className={`image-hover overflow-hidden rounded-[1.75rem] bg-white shadow-xl shadow-black/10 ring-1 ring-black/6 ${className}`}
-      data-animate="zoom-in"
+      className={` overflow-hidden rounded-[1.75rem] bg-white shadow-xl shadow-black/10 ring-1 ring-black/6 ${className}`}
     >
       <div className="relative aspect-[4/3]">
         <Image
@@ -191,13 +190,13 @@ export default function AboutUsPage() {
             </div>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                className="inline-flex items-center justify-center rounded-full bg-[#b5252b] px-7 py-4 text-base font-black text-white shadow-lg shadow-[#b5252b]/20 transition hover:bg-[#9f1f25]"
+                className="inline-flex items-center justify-center rounded-full bg-[#b5252b] px-7 py-4 text-base font-black text-white shadow-lg shadow-[#b5252b]/20 hover:bg-[#9f1f25]"
                 href="/#quote"
               >
                 Get My Free Cash Offer
               </a>
               <a
-                className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-black text-[#171a17] shadow-sm ring-1 ring-black/10 transition hover:text-[#b5252b]"
+                className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-black text-[#171a17] shadow-sm ring-1 ring-black/10 hover:text-[#b5252b]"
                 href="tel:+15876642401"
               >
                 Call (587)-664-2401 - Talk to a Real Person
@@ -448,13 +447,13 @@ export default function AboutUsPage() {
           </div>
           <div className="rounded-[1.75rem] bg-white p-6 text-[#171a17] shadow-2xl shadow-black/20">
             <a
-              className="inline-flex w-full justify-center rounded-full bg-[#171a17] px-7 py-4 text-center text-base font-black text-white transition hover:bg-[#b5252b]"
+              className="inline-flex w-full justify-center rounded-full bg-[#171a17] px-7 py-4 text-center text-base font-black text-white hover:bg-[#b5252b]"
               href="/#quote"
             >
               Get My Free Cash Offer Now →
             </a>
             <a
-              className="mt-3 inline-flex w-full justify-center rounded-full bg-[#f4c542] px-7 py-4 text-center text-base font-black text-[#171a17] transition hover:bg-[#f4f1e9]"
+              className="mt-3 inline-flex w-full justify-center rounded-full bg-[#f4c542] px-7 py-4 text-center text-base font-black text-[#171a17] hover:bg-[#f4f1e9]"
               href="tel:+15876642401"
             >
               Or call: (587)-664-2401 - We Answer 7 Days a Week

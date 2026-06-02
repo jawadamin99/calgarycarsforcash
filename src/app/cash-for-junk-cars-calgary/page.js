@@ -233,21 +233,21 @@ function Header() {
           />
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-black text-[#3f473f] lg:flex">
-          <a className="transition hover:text-[#b5252b]" href="#problem">
+          <a className="hover:text-[#b5252b]" href="#problem">
             Problem
           </a>
-          <a className="transition hover:text-[#b5252b]" href="#what-counts">
+          <a className="hover:text-[#b5252b]" href="#what-counts">
             What Counts
           </a>
-          <a className="transition hover:text-[#b5252b]" href="#pricing">
+          <a className="hover:text-[#b5252b]" href="#pricing">
             Pricing
           </a>
-          <a className="transition hover:text-[#b5252b]" href="#faq">
+          <a className="hover:text-[#b5252b]" href="#faq">
             FAQ
           </a>
         </nav>
         <a
-          className="inline-flex items-center gap-2 rounded-full bg-[#171a17] px-4 py-2.5 text-sm font-black text-white shadow-sm transition hover:bg-[#b5252b] sm:px-5"
+          className="inline-flex items-center gap-2 rounded-full bg-[#171a17] px-4 py-2.5 text-sm font-black text-white shadow-sm hover:bg-[#b5252b] sm:px-5"
           href="tel:+15876642401"
         >
           <svg
@@ -315,8 +315,7 @@ function CheckList({ items }) {
 function ImagePanel({ alt, className = "", objectPosition = "center", src }) {
   return (
     <div
-      className={`image-hover overflow-hidden rounded-[1.75rem] bg-white shadow-xl shadow-black/10 ring-1 ring-black/6 ${className}`}
-      data-animate="zoom-in"
+      className={` overflow-hidden rounded-[1.75rem] bg-white shadow-xl shadow-black/10 ring-1 ring-black/6 ${className}`}
     >
       <div className="relative aspect-[4/3]">
         <Image
@@ -352,16 +351,16 @@ function Footer() {
           </p>
         </div>
         <div className="grid grid-cols-2 gap-3 text-sm font-black text-white/78 sm:grid-cols-4">
-          <a className="transition hover:text-white" href="#problem">
+          <a className="hover:text-white" href="#problem">
             Problem
           </a>
-          <a className="transition hover:text-white" href="#what-counts">
+          <a className="hover:text-white" href="#what-counts">
             What Counts
           </a>
-          <a className="transition hover:text-white" href="#pricing">
+          <a className="hover:text-white" href="#pricing">
             Pricing
           </a>
-          <a className="transition hover:text-white" href="#faq">
+          <a className="hover:text-white" href="#faq">
             FAQ
           </a>
         </div>
@@ -418,13 +417,13 @@ export default function CashForJunkCarsCalgaryPage() {
             </div>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                className="inline-flex items-center justify-center rounded-full bg-[#b5252b] px-7 py-4 text-base font-black text-white shadow-lg shadow-[#b5252b]/20 transition hover:bg-[#9f1f25]"
+                className="inline-flex items-center justify-center rounded-full bg-[#b5252b] px-7 py-4 text-base font-black text-white shadow-lg shadow-[#b5252b]/20 hover:bg-[#9f1f25]"
                 href="#quote"
               >
                 Get My Junk Car Cash Offer
               </a>
               <a
-                className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-black text-[#171a17] shadow-sm ring-1 ring-black/10 transition hover:text-[#b5252b]"
+                className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-black text-[#171a17] shadow-sm ring-1 ring-black/10 hover:text-[#b5252b]"
                 href="tel:+15876642401"
               >
                 Call (587)-664-2401 - 7 days a week
@@ -677,13 +676,13 @@ export default function CashForJunkCarsCalgaryPage() {
           </div>
           <div className="rounded-[1.75rem] bg-white p-6 text-[#171a17] shadow-2xl shadow-black/20">
             <a
-              className="inline-flex w-full justify-center rounded-full bg-[#171a17] px-7 py-4 text-center text-base font-black text-white transition hover:bg-[#b5252b]"
+              className="inline-flex w-full justify-center rounded-full bg-[#171a17] px-7 py-4 text-center text-base font-black text-white hover:bg-[#b5252b]"
               href="#quote"
             >
               Get My Junk Car Cash Offer - Free Quote in 5 Minutes
             </a>
             <a
-              className="mt-3 inline-flex w-full justify-center rounded-full bg-[#f4c542] px-7 py-4 text-center text-base font-black text-[#171a17] transition hover:bg-[#f4f1e9]"
+              className="mt-3 inline-flex w-full justify-center rounded-full bg-[#f4c542] px-7 py-4 text-center text-base font-black text-[#171a17] hover:bg-[#f4f1e9]"
               href="tel:+15876642401"
             >
               Call (587)-664-2401 - 7 days a week, including weekends
