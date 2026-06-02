@@ -339,7 +339,7 @@ export default function Home() {
               <h1
                 className="max-w-4xl text-4xl font-black leading-[0.98] text-[#171a17] sm:text-5xl lg:text-6xl"
               >
-                Get Paid Today, We Tow for Free
+                Get Paid Today for Cash for Cars Calgary — We Tow for Free
               </h1>
               <div
                 className="mt-6 max-w-2xl text-lg leading-8 text-[#424940] sm:text-xl"
@@ -391,8 +391,8 @@ export default function Home() {
           <div className="grid gap-6 lg:grid-cols-[0.58fr_0.42fr] lg:items-center">
             <div className="grid gap-4">
               <p className="text-2xl font-black leading-tight text-[#b5252b]">
-                Running or not, we pay top dollar, tow it away for free, and
-                hand you cash on the spot - same day.
+                Most Trusted Cash For Cars Calgary Service - Local,Fast &amp;
+                Honest
               </p>
               <p className="text-base leading-8 text-[#4d564e]">
                 Whether you have a rusted-out clunker sitting in your NW
