@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import JsonLd from "./components/JsonLd";
 import "./globals.css";
 
@@ -109,6 +110,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZRTNMQFQSS"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZRTNMQFQSS');
+          `}
+        </Script>
         <JsonLd data={businessSchema} />
         {children}
       </body>
