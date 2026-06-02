@@ -1,4 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import JsonLd from "./components/JsonLd";
+import ScrollAnimations from "./components/ScrollAnimations";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,23 +13,72 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://www.calgarycarsforcash.ca";
+const businessSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": `${siteUrl}/#business`,
+      name: "Calgary Cars for Cash",
+      url: siteUrl,
+      telephone: "+1-587-664-2401",
+      email: "info@calgarycarsforcash.ca",
+      image: `${siteUrl}/images/cash-for-cars-calgary-pickup-bmw.jpeg`,
+      logo: `${siteUrl}/images/calgary-cash-for-cars-logo.png`,
+      priceRange: "$300-$10,000",
+      description:
+        "Calgary Cars for Cash buys junk, scrap, damaged, and unwanted vehicles in Calgary with free towing, same-day pickup, and cash paid on the spot.",
+      areaServed: [
+        "Calgary",
+        "Airdrie",
+        "Cochrane",
+        "Okotoks",
+        "Chestermere",
+        "Strathmore",
+        "High River",
+      ],
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+1-587-664-2401",
+        contactType: "customer service",
+        areaServed: "CA-AB",
+        availableLanguage: "en",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      url: siteUrl,
+      name: "Calgary Cars for Cash",
+      publisher: {
+        "@id": `${siteUrl}/#business`,
+      },
+      inLanguage: "en-CA",
+    },
+  ],
+};
+
 export const metadata = {
-  title: "Calgary Cars for Cash | Coming Soon",
+  title: "Cash for Cars Calgary | Top Cash for Scrap And junk Cars | Free Towing",
   description:
-    "Calgary Cars for Cash is launching soon with fast vehicle buying, free towing, and fair cash offers across Calgary.",
-  metadataBase: new URL("https://calgarycarsforcash.ca"),
+    "Get $300 to $10,000 cash for cars Calgary - junk, scrap, or unwanted. Free towing, same-day pickup, paid on the spot. Call now (587)-664-2401",
+  metadataBase: new URL("https://www.calgarycarsforcash.ca"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "Calgary Cars for Cash | Coming Soon",
+    title: "Cash for Cars Calgary | Top Cash for Scrap And junk Cars | Free Towing",
     description:
-      "A Calgary cash-for-cars service is launching soon with quick quotes, free towing, and straightforward payment.",
-    url: "https://calgarycarsforcash.ca",
+      "Get $300 to $10,000 cash for cars Calgary - junk, scrap, or unwanted. Free towing, same-day pickup, paid on the spot. Call now (587)-664-2401",
+    url: "https://www.calgarycarsforcash.ca",
     siteName: "Calgary Cars for Cash",
     images: [
       {
-        url: "/images/coming-soon-hero.png",
-        width: 1823,
-        height: 863,
-        alt: "Tow truck picking up a car in Calgary",
+        url: "/images/cash-for-cars-calgary-pickup-bmw.jpeg",
+        width: 1200,
+        height: 1600,
+        alt: "Cash for cars pickup in Calgary",
       },
     ],
     locale: "en_CA",
@@ -35,10 +86,18 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Calgary Cars for Cash | Coming Soon",
+    title: "Cash for Cars Calgary | Top Cash for Scrap And junk Cars | Free Towing",
     description:
-      "Fast cash offers for unwanted cars in Calgary. Full website coming soon.",
-    images: ["/images/coming-soon-hero.png"],
+      "Get $300 to $10,000 cash for cars Calgary - junk, scrap, or unwanted. Free towing, same-day pickup, paid on the spot. Call now (587)-664-2401",
+    images: ["/images/cash-for-cars-calgary-pickup-bmw.jpeg"],
+  },
+  icons: {
+    icon: [
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    other: [{ rel: "icon", url: "/icon-512.png", sizes: "512x512" }],
   },
 };
 
@@ -51,6 +110,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <JsonLd data={businessSchema} />
+        <ScrollAnimations />
         {children}
       </body>
     </html>
