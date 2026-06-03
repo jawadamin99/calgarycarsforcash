@@ -5,7 +5,7 @@ export default function SiteFooter({ tagline }) {
   return (
     <footer className="bg-[#171a17] px-5 pt-14 text-white sm:px-8 lg:px-10">
       <div className="mx-auto max-w-7xl">
-        <div className="grid gap-10 lg:grid-cols-[1.05fr_0.7fr_0.75fr_0.9fr]">
+        <div className="grid gap-10 lg:grid-cols-[1.05fr_0.7fr_0.75fr_0.6fr_0.9fr]">
           <div>
             <Link className="inline-flex items-center" href="/">
               <Image
@@ -40,7 +40,7 @@ export default function SiteFooter({ tagline }) {
               <Link className="inline-block" href="/about-us">
                 About
               </Link>
-              <Link className="inline-block" href="/#quote">
+              <Link className="inline-block" href="/contact">
                 Contact
               </Link>
             </nav>
@@ -56,6 +56,23 @@ export default function SiteFooter({ tagline }) {
               </Link>
               <Link className="inline-block" href="/scrap-car-removal-calgary">
                 Scrap Car Removal
+              </Link>
+              <Link className="inline-block" href="/contact">
+                Contact
+              </Link>
+            </nav>
+          </div>
+
+          <div>
+            <h2 className="text-sm font-black uppercase tracking-[0.2em] text-[#f4c542]">
+              Legal
+            </h2>
+            <nav className="mt-5 grid gap-3 text-sm font-black text-white/76">
+              <Link className="inline-block" href="/terms-and-conditions">
+                Terms & Conditions
+              </Link>
+              <Link className="inline-block" href="/privacy-policy">
+                Privacy Policy
               </Link>
             </nav>
           </div>

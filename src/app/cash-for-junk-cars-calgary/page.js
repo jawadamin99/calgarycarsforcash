@@ -6,32 +6,32 @@ import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
 
 export const metadata = {
-  title: "Cash for Junk Cars Calgary | $300-$10,000 |same day cash",
+  title: "Cash for Junk Cars Calgary | Running or Not, We Buy It",
   description:
     "Looking for cash for junk cars in Calgary? We pay up to $10,000 - any condition, blown engine, or write-off. instant cash paid on pickup. Call now.",
   alternates: {
     canonical: "/cash-for-junk-cars-calgary",
   },
   openGraph: {
-    title: "Cash for Junk Cars Calgary | $300-$10,000 |same day cash",
+    title: "Cash for Junk Cars Calgary | Running or Not, We Buy It",
     description:
       "Looking for cash for junk cars in Calgary? We pay up to $10,000 - any condition, blown engine, or write-off. instant cash paid on pickup. Call now.",
     url: "https://www.calgarycarsforcash.ca/cash-for-junk-cars-calgary",
     images: [
       {
-        url: "/images/accident-damaged-van-calgary.jpeg",
+        url: "/images/calgary-cash-for-cars-logo.png",
         width: 1200,
-        height: 1600,
-        alt: "Accident damaged junk van in Calgary",
+        height: 1200,
+        alt: "Calgary Cars For Cash logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cash for Junk Cars Calgary | $300-$10,000 |same day cash",
+    title: "Cash for Junk Cars Calgary | Running or Not, We Buy It",
     description:
       "Looking for cash for junk cars in Calgary? We pay up to $10,000 - any condition, blown engine, or write-off. instant cash paid on pickup. Call now.",
-    images: ["/images/accident-damaged-van-calgary.jpeg"],
+    images: ["/images/calgary-cash-for-cars-logo.png"],
   },
 };
 
@@ -42,7 +42,7 @@ const pageSchema = {
       "@type": "WebPage",
       "@id": "https://www.calgarycarsforcash.ca/cash-for-junk-cars-calgary#webpage",
       url: "https://www.calgarycarsforcash.ca/cash-for-junk-cars-calgary",
-      name: "Cash for Junk Cars Calgary | $300-$10,000 |same day cash",
+      name: "Cash for Junk Cars Calgary | Running or Not, We Buy It",
       description:
         "Looking for cash for junk cars in Calgary? We pay up to $10,000 - any condition, blown engine, or write-off. instant cash paid on pickup. Call now.",
       isPartOf: {

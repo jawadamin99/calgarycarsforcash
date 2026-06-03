@@ -6,32 +6,32 @@ import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
 
 export const metadata = {
-  title: "Scrap Car Removal Calgary | Free Pickup | Up to $10,000 Cash",
+  title: "Scrap Car Removal Calgary — Same-Day Pickup, Paid Cash",
   description:
     "Calgary's #1 scrap car removal service - we pick up your scrap car for free and pay $300-$10,000 cash same day. All Calgary areas covered. Get a free quote today.",
   alternates: {
     canonical: "/scrap-car-removal-calgary",
   },
   openGraph: {
-    title: "Scrap Car Removal Calgary | Free Pickup | Up to $10,000 Cash",
+    title: "Scrap Car Removal Calgary — Same-Day Pickup, Paid Cash",
     description:
       "Calgary's #1 scrap car removal service - we pick up your scrap car for free and pay $300-$10,000 cash same day. All Calgary areas covered. Get a free quote today.",
     url: "https://www.calgarycarsforcash.ca/scrap-car-removal-calgary",
     images: [
       {
-        url: "/images/junk-car-removal-calgary-flatbed.jpeg",
+        url: "/images/calgary-cash-for-cars-logo.png",
         width: 1200,
-        height: 1600,
-        alt: "Flatbed removing vehicles in Calgary",
+        height: 1200,
+        alt: "Calgary Cars For Cash logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Scrap Car Removal Calgary | Free Pickup | Up to $10,000 Cash",
+    title: "Scrap Car Removal Calgary — Same-Day Pickup, Paid Cash",
     description:
       "Calgary's #1 scrap car removal service - we pick up your scrap car for free and pay $300-$10,000 cash same day. All Calgary areas covered. Get a free quote today.",
-    images: ["/images/junk-car-removal-calgary-flatbed.jpeg"],
+    images: ["/images/calgary-cash-for-cars-logo.png"],
   },
 };
 
@@ -42,7 +42,7 @@ const pageSchema = {
       "@type": "WebPage",
       "@id": "https://www.calgarycarsforcash.ca/scrap-car-removal-calgary#webpage",
       url: "https://www.calgarycarsforcash.ca/scrap-car-removal-calgary",
-      name: "Scrap Car Removal Calgary | Free Pickup | Up to $10,000 Cash",
+      name: "Scrap Car Removal Calgary — Same-Day Pickup, Paid Cash",
       description:
         "Calgary's #1 scrap car removal service - we pick up your scrap car for free and pay $300-$10,000 cash same day. All Calgary areas covered. Get a free quote today.",
       isPartOf: {

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import JsonLd from "../components/JsonLd";
+import LeadForm from "../components/LeadForm";
 import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
 
@@ -17,10 +18,10 @@ export const metadata = {
     url: "https://www.calgarycarsforcash.ca/about-us",
     images: [
       {
-        url: "/images/cash-for-cars-calgary-pickup-bmw.jpeg",
+        url: "/images/calgary-cash-for-cars-logo.png",
         width: 1200,
-        height: 1600,
-        alt: "Calgary Cars for Cash local vehicle pickup",
+        height: 1200,
+        alt: "Calgary Cars For Cash logo",
       },
     ],
   },
@@ -29,7 +30,7 @@ export const metadata = {
     title: "About Calgary Cars for Cash | Local Buyers Since 2017",
     description:
       "Calgary-owned cash for cars service since 2017. We buy junk, scrap & unwanted vehicles with free towing and same-day cash. Meet our team.",
-    images: ["/images/cash-for-cars-calgary-pickup-bmw.jpeg"],
+    images: ["/images/calgary-cash-for-cars-logo.png"],
   },
 };
 
@@ -164,7 +165,7 @@ export default function AboutUsPage() {
           className="object-cover object-[48%_center]"
         />
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(244,241,233,0.98)_0%,rgba(244,241,233,0.92)_48%,rgba(244,241,233,0.55)_78%,rgba(244,241,233,0.22)_100%)]" />
-        <div className="relative z-10 mx-auto grid min-h-[calc(100vh-7rem)] max-w-7xl items-center gap-10 px-5 py-14 sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(360px,0.5fr)] lg:px-10">
+        <div className="relative z-10 mx-auto grid min-h-[calc(100vh-7rem)] max-w-7xl items-center gap-10 px-5 py-14 sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(360px,0.54fr)] lg:px-10">
           <div className="max-w-3xl">
             <p className="mb-5 inline-flex rounded-full bg-white/90 px-4 py-2 text-sm font-black text-[#b5252b] shadow-sm ring-1 ring-black/5">
               About Calgary Cars for Cash
@@ -202,6 +203,10 @@ export default function AboutUsPage() {
                 Call (587)-664-2401 - Talk to a Real Person
               </a>
             </div>
+          </div>
+
+          <div className="w-full max-w-[560px] lg:justify-self-end">
+            <LeadForm title="Get My Free Cash Offer" />
           </div>
         </div>
       </section>

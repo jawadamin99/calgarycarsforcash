@@ -33,7 +33,7 @@ export default function SiteHeader() {
             <Link className="block rounded-xl px-4 py-3 text-sm font-black text-[#3f473f]" href="/scrap-car-removal-calgary">
               Scrap Car Removal
             </Link>
-            <Link className="block rounded-xl px-4 py-3 text-sm font-black text-[#3f473f]" href="/#quote">
+            <Link className="block rounded-xl px-4 py-3 text-sm font-black text-[#3f473f]" href="/contact">
               Contact
             </Link>
           </div>
@@ -46,7 +46,7 @@ export default function SiteHeader() {
             width={300}
             height={278}
             priority
-            className="h-24 w-auto lg:h-28"
+            className="h-20 w-auto sm:h-24 lg:h-28"
           />
         </Link>
 
@@ -63,7 +63,7 @@ export default function SiteHeader() {
           <Link className="text-[#3f473f]" href="/scrap-car-removal-calgary">
             Scrap Car Removal
           </Link>
-          <Link className="text-[#3f473f]" href="/#quote">
+          <Link className="text-[#3f473f]" href="/contact">
             Contact
           </Link>
         </nav>
