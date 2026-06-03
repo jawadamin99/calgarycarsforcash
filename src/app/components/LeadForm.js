@@ -73,6 +73,7 @@ export default function LeadForm({
             <input
               className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none placeholder:font-normal placeholder:text-[#8a8f8a] placeholder:opacity-60 ring-[#f4c542] focus:ring-2"
               name="email"
+              required
               type="email"
               placeholder="you@email.com"
             />
@@ -82,6 +83,7 @@ export default function LeadForm({
             <input
               className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none placeholder:font-normal placeholder:text-[#8a8f8a] placeholder:opacity-60 ring-[#f4c542] focus:ring-2"
               name="city"
+              required
               type="text"
               placeholder="Calgary, NW, Airdrie..."
             />
@@ -91,6 +93,7 @@ export default function LeadForm({
             <input
               className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none placeholder:font-normal placeholder:text-[#8a8f8a] placeholder:opacity-60 ring-[#f4c542] focus:ring-2"
               name="make_model"
+              required
               placeholder="2008 Honda Civic"
             />
           </label>
@@ -100,6 +103,7 @@ export default function LeadForm({
               rows={compact ? 3 : 4}
               className="rounded-xl border border-white/10 bg-white px-4 py-3 text-[#171a17] outline-none placeholder:font-normal placeholder:text-[#8a8f8a] placeholder:opacity-60 ring-[#f4c542] focus:ring-2"
               name="message"
+              required
               placeholder="Tell us about the vehicle, condition, and pickup details"
             />
           </label>
