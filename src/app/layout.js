@@ -57,6 +57,7 @@ const businessSchema = {
       "@id": `${siteUrl}/#website`,
       url: siteUrl,
       name: "Calgary Cars For Cash",
+      alternateName: ["Calgary Cars For Cash LTD", "Calgary Cars for Cash"],
       publisher: {
         "@id": `${siteUrl}/#business`,
       },
