@@ -22,6 +22,14 @@ const businessSchema = {
       name: "Calgary Cars For Cash",
       url: siteUrl,
       logo: `${siteUrl}/images/calgary-cash-for-cars-logo.png`,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "3412 27 Street NE",
+        addressLocality: "Calgary",
+        addressRegion: "AB",
+        postalCode: "T1Y 5E2",
+        addressCountry: "CA",
+      },
     },
     {
       "@type": "AutomotiveBusiness",
@@ -32,6 +40,14 @@ const businessSchema = {
       email: "info@calgarycarsforcash.ca",
       image: `${siteUrl}/images/calgary-cash-for-cars-logo.png`,
       logo: `${siteUrl}/images/calgary-cash-for-cars-logo.png`,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "3412 27 Street NE",
+        addressLocality: "Calgary",
+        addressRegion: "AB",
+        postalCode: "T1Y 5E2",
+        addressCountry: "CA",
+      },
       priceRange: "$300-$10,000",
       description:
         "Calgary Cars For Cash buys junk, scrap, damaged, and unwanted vehicles in Calgary with free towing, same-day pickup, and cash paid on the spot.",

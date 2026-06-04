@@ -229,7 +229,7 @@ export default function PrivacyPolicyPage() {
                 <p>Calgary Cars for Cash</p>
                 <p>Email: info@calgarycarsforcash.ca</p>
                 <p>Phone: (587)-664-2401</p>
-                <p>Address: Calgary, Alberta</p>
+                <p>Address: 3412 27 Street NE, Calgary, T1Y 5E2</p>
                 <p>Website: https://calgarycarsforcash.ca</p>
               </div>
             </section>

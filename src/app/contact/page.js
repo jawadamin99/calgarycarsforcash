@@ -192,13 +192,25 @@ export default function ContactPage() {
                   ))}
                 </div>
                 <div className="mt-5 rounded-2xl bg-white/8 p-4 text-sm leading-7 text-white/78 ring-1 ring-white/10">
-                  <p className="font-black text-white">Service Area</p>
-                  <p className="mt-2">
-                    Calgary and the broader Calgary metro area - including
-                    Airdrie, Cochrane, Okotoks, Chestermere, Strathmore, and
-                    High River. We cover everywhere within a 60 km radius of
-                    downtown Calgary at no charge.
-                  </p>
+                  <div className="rounded-2xl bg-[#f4c542] px-4 py-4 text-[#171a17]">
+                    <p className="text-xs font-black uppercase tracking-[0.2em] opacity-80">
+                      Address
+                    </p>
+                    <p className="mt-2 text-base font-black leading-7">
+                      3412 27 Street NE
+                      <br />
+                      Calgary, T1Y 5E2
+                    </p>
+                  </div>
+                  <div className="mt-4 rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+                    <p className="font-black text-white">Service Area</p>
+                    <p className="mt-2">
+                      Calgary and the broader Calgary metro area - including
+                      Airdrie, Cochrane, Okotoks, Chestermere, Strathmore, and
+                      High River. We cover everywhere within a 60 km radius of
+                      downtown Calgary at no charge.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

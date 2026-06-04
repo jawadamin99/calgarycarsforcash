@@ -20,6 +20,14 @@ export default function SiteFooter({ tagline }) {
               {tagline ||
                 "Cash for Cars Calgary - Get Paid Today, We Tow for Free"}
             </p>
+            <div className="mt-5 rounded-2xl bg-white/8 px-4 py-4 text-sm leading-6 text-white/78 ring-1 ring-white/10">
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-[#f4c542]">
+                Address
+              </p>
+              <p className="mt-2 font-black text-white">
+                3412 27 Street NE, Calgary, T1Y 5E2
+              </p>
+            </div>
             <div className="mt-6 flex flex-wrap gap-2">
               {["Free Towing", "Paid on the Spot", "All Calgary"].map((item) => (
                 <span className="rounded-full bg-white/8 px-3 py-1.5 text-xs font-black text-white/78 ring-1 ring-white/10" key={item}>
