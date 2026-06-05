@@ -423,8 +423,7 @@ export default function Home() {
                   Who We Are
                 </p>
                 <h2 className="mt-4 text-3xl font-black leading-tight sm:text-4xl">
-                  Calgary's Trusted Cash for Cars Service - Local, Fast, and
-                  Honest
+                  Calgary's Trusted Cash for Cars Service - Local, Fast, and Honest
                 </h2>
                 <div className="mt-8 grid gap-3">
                   {[
@@ -449,8 +448,11 @@ export default function Home() {
                   <p>
                     Calgary is a city built on hard work and straight dealing -
                     and that's exactly how we operate. Calgary Cars for Cash is
-                    a locally owned and operated car buying service based right
-                    here in Calgary, Alberta. We've helped homeowners, renters,
+                    a locally owned and operated{" "}
+                    <a className="font-black text-[#b5252b]" href="/">
+                      car buying service
+                    </a>{" "}
+                    based right here in Calgary, Alberta. We've helped homeowners, renters,
                     and businesses across every neighbourhood - from Beltline
                     and Bridgeland to Evergreen, Tuscany, and Forest Lawn - turn
                     old, damaged, and unwanted vehicles into real money without
@@ -607,7 +609,10 @@ export default function Home() {
                 get rid of one legally and profitably.
               </p>
               <p>
-                Calgary Cars for Cash handles every junk car removal from start
+                Calgary Cars for Cash handles every {" "}
+                <a className="font-black text-[#f4c542]" href="/cash-for-junk-cars-calgary">
+                  junk car removal
+                </a>{" "} from start
                 to finish. You don't rent a trailer, you don't call a tow
                 company separately, and you don't pay a disposal fee. We bring
                 our flatbed tow truck to your location anywhere in Calgary - NW,
@@ -652,8 +657,10 @@ export default function Home() {
                 and 36 Street NE - and we work directly within that ecosystem.
               </p>
               <p>
-                Calgary Cars for Cash facilitates environmentally compliant
-                scrap car removal in Calgary by ensuring all hazardous fluids -
+                Calgary Cars for Cash facilitates environmentally compliant {" "}
+                <a className="font-black text-[#b5252b]" href="/scrap-car-removal-calgary">
+                  scrap car removal in Calgary
+                </a>{" "} by ensuring all hazardous fluids -
                 engine oil, transmission fluid, coolant, brake fluid, and
                 refrigerant - are properly drained and disposed of before the
                 vehicle enters the recycling stream. Scrap metal from vehicles
@@ -833,7 +840,9 @@ export default function Home() {
             <div className="mt-6 space-y-5 text-base leading-8 text-white/88 sm:text-lg">
               <p>
                 Turn your junk car, scrap car, or unwanted vehicle into cash
-                today. Calgary Cars for Cash is available 7 days a week across
+                today. Calgary Cars for Cash is available <a className="font-black text-[#f4c542]" href="/contact">
+                7 days a week
+              </a>{" "} across
                 all of Calgary and the surrounding region. Getting rid of your
                 vehicle has never been simpler - or more profitable.
               </p>

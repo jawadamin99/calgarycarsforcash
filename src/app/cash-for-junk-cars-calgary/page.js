@@ -410,7 +410,7 @@ export default function CashForJunkCarsCalgaryPage() {
               </p>
               <p>
                 More than you think. At Calgary Cars for Cash, we pay $300 to
-                $10,000 for junk cars across Calgary - regardless of whether
+                $10,000 for <a className="font-black text-[#b5252b]" href="/cash-for-junk-cars-calgary">junk cars across Calgary</a> - regardless of whether
                 they run, regardless of how bad the damage is, and regardless of
                 how long they've been sitting.
               </p>
@@ -510,8 +510,8 @@ export default function CashForJunkCarsCalgaryPage() {
             <p>
               People are often surprised by what we consider a junk car -
               because our definition is much broader than most. If your vehicle
-              has any of the following, it qualifies, and we'll pay you cash for
-              it in Calgary today:
+              has any of the following, it qualifies, and we'll <a className="font-black text-[#b5252b]" href="/">pay you cash for
+              it in Calgary</a> today:
             </p>
           </SectionIntro>
           <div className="mt-12 grid gap-6 lg:grid-cols-[0.34fr_0.66fr]">

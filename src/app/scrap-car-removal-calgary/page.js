@@ -271,8 +271,7 @@ export default function ScrapCarRemovalCalgaryPage() {
               <p>
                 You don't need to figure out how to get rid of your old car. You
                 don't need to find a tow truck, locate a scrap yard, or deal
-                with Alberta recycling paperwork. Scrap car removal in Calgary
-                is exactly what we do - we come to you, we load the vehicle, we
+                with Alberta recycling paperwork. <a href="/scrap-car-removal-calgary" className="font-black text-[#b5252b]">Scrap car removal in Calgary</a> {" "} is exactly what we do - we come to you, we load the vehicle, we
                 pay you cash on the spot, and we handle everything after that.
               </p>
               <p>
@@ -391,7 +390,7 @@ export default function ScrapCarRemovalCalgaryPage() {
               that chain loses.
             </p>
             <p>
-              That's why scrap car removal in Calgary is genuinely free - not as
+              That's why <a href="/" className="font-black text-[#f4c542]">scrap car removal in Calgary</a> is genuinely free - not as
               a gimmick, not with a catch, and not with a deduction hidden in the
               fine print. The towing is free. The pickup is free. The paperwork
               is free. The offer we quote is what you receive.

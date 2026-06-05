@@ -158,7 +158,7 @@ export default function ContactPage() {
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                   <a
                     className="inline-flex items-center justify-center rounded-full bg-[#b5252b] px-7 py-4 text-base font-black text-white"
-                    href="#quote-form"
+                    href="/"
                   >
                     Get My Free Cash Offer
                   </a>

@@ -182,7 +182,7 @@ export default function AboutUsPage() {
               </p>
               <p>Calgarians deserve better. So we built it.</p>
               <p>
-                Today, Calgary Cars for Cash is a locally owned car buying
+                Today, <a className="font-black text-[#b5252b]" href="/"> Calgary Cars for Cash</a> is a locally owned car buying
                 service that does exactly what it says - we come to you anywhere
                 in Calgary, hand you cash on the spot, and tow your vehicle away
                 for free. No games. No renegotiation in your driveway. No "let
@@ -425,7 +425,7 @@ export default function AboutUsPage() {
             <p>
               If you're within 60 km of downtown Calgary, we'll come to you at
               no charge. If you're not sure whether you're in our service area,
-              just call. We can usually tell you in 30 seconds.
+              <a className="font-black text-[#b5252b]" href="/contact"> just call</a>. We can usually tell you in 30 seconds.
             </p>
           </div>
         </div>
