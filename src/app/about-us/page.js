@@ -16,6 +16,7 @@ export const metadata = {
     description:
       "Calgary-owned cash for cars service since 2017. We buy junk, scrap & unwanted vehicles with free towing and same-day cash. Meet our team.",
     url: "https://www.calgarycarsforcash.ca/about-us",
+    siteName: "Calgary Cars For Cash",
     images: [
       {
         url: "/images/calgary-cash-for-cars-logo.png",

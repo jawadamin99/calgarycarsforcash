@@ -17,6 +17,7 @@ export const metadata = {
     description:
       "Calgary's #1 scrap car removal service - we pick up your scrap car for free and pay $300-$10,000 cash same day. All Calgary areas covered. Get a free quote today.",
     url: "https://www.calgarycarsforcash.ca/scrap-car-removal-calgary",
+    siteName: "Calgary Cars For Cash",
     images: [
       {
         url: "/images/calgary-cash-for-cars-logo.png",

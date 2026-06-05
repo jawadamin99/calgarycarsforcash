@@ -14,6 +14,7 @@ export const metadata = {
     description:
       "Read the privacy policy for calgarycarsforcash.ca. Learn how we collect, use, and protect your data when you sell your car in Calgary.",
     url: "https://www.calgarycarsforcash.ca/privacy-policy",
+    siteName: "Calgary Cars For Cash",
     type: "article",
   },
   twitter: {

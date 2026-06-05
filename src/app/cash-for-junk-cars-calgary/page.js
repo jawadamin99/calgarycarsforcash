@@ -17,6 +17,7 @@ export const metadata = {
     description:
       "Looking for cash for junk cars in Calgary? We pay up to $10,000 - any condition, blown engine, or write-off. instant cash paid on pickup. Call now.",
     url: "https://www.calgarycarsforcash.ca/cash-for-junk-cars-calgary",
+    siteName: "Calgary Cars For Cash",
     images: [
       {
         url: "/images/calgary-cash-for-cars-logo.png",

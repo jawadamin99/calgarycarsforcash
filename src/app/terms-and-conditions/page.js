@@ -14,6 +14,7 @@ export const metadata = {
     description:
       "The terms that apply when you sell your car to Calgary Cars for Cash. Clear, plain language - how quotes, pickup, payment, and ownership work.",
     url: "https://www.calgarycarsforcash.ca/terms-and-conditions",
+    siteName: "Calgary Cars For Cash",
     type: "article",
   },
   twitter: {

@@ -16,6 +16,7 @@ export const metadata = {
     description:
       "Get $300 to $10,000 cash for cars Calgary - junk, scrap, or unwanted. Free towing, same-day pickup, paid on the spot. Call now (587)-664-2401",
     url: "https://www.calgarycarsforcash.ca",
+    siteName: "Calgary Cars For Cash",
     images: [
       {
         url: "/images/calgary-cash-for-cars-logo.png",

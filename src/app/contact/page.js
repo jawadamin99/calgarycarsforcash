@@ -15,6 +15,7 @@ export const metadata = {
     description:
       "Get in touch with Calgary Cars for Cash for a free vehicle quote. Call (587) 664-2401, request a pickup online, or message us - 7 days a week.",
     url: "https://www.calgarycarsforcash.ca/contact",
+    siteName: "Calgary Cars For Cash",
     type: "article",
   },
   twitter: {
