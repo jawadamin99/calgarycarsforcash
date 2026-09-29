@@ -198,9 +198,9 @@ export default function ContactPage() {
                       Address
                     </p>
                     <p className="mt-2 text-base font-black leading-7">
-                      3412 27 Street NE
+                      7721 40 Street NE
                       <br />
-                      Calgary, T1Y 5E2
+                      Calgary, AB T3J 4H2
                     </p>
                   </div>
                   <div className="mt-4 rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">

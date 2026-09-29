@@ -25,7 +25,7 @@ export default function SiteFooter({ tagline }) {
                 Address
               </p>
               <p className="mt-2 font-black text-white">
-                3412 27 Street NE, Calgary, T1Y 5E2
+                7721 40 Street NE, Calgary, AB T3J 4H2
               </p>
             </div>
             <div className="mt-6 flex flex-wrap gap-2">
